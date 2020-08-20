@@ -297,3 +297,33 @@ nav img {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-width: 740px) {
+  h1 {
+    font-size: 72px;
+    line-height: 91px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  nav img {
+    width: 160px;
+  }
+
+  .heroContainer div p {
+    margin-top: 0;
+  }
+
+  .heroContainer h1 {
+    margin-top: 10%;
+  }
+
+  .heroContainer button {
+    bottom: 13%;
+    height: 66px;
+    width: 255px;
+  }
+}
