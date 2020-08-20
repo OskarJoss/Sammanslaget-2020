@@ -7,6 +7,10 @@ const addPadding = () => {
     const padding = (window.innerWidth - 4 * 270) / 2;
     cardWrapper.style.padding = `0 ${padding}px`;
   }
+
+  if (window.innerWidth > 740 && window.innerWidth < 1080) {
+    cardWrapper.style.padding = "0";
+  }
 };
 
 addPadding();
