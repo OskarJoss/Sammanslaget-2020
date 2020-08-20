@@ -149,6 +149,7 @@ nav img {
 }
 
 .card_imageContainer {
+  position: relative;
   height: 71%;
   width: 100%;
   /* border-radius: 0 0 8px 8px; */
@@ -159,6 +160,19 @@ nav img {
   width: 100%;
   object-fit: cover;
   border-radius: 8px 8px 0 0;
+}
+
+.card_imageContainer div {
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-color: var(--color-green);
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card_textContainer {
@@ -322,8 +336,33 @@ nav img {
   }
 
   .heroContainer button {
-    bottom: 13%;
     height: 66px;
     width: 255px;
+  }
+
+  .section1 {
+    height: 40vh;
+  }
+
+  .section1 p {
+    width: 70%;
+  }
+
+  .carouselContainer {
+    height: 100vh;
+    width: 100%;
+  }
+  .carouselContainer_cardWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 20px 15px;
+  }
+
+  .divider {
+    display: none;
   }
 }
